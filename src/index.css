@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.cursor {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+hr {
+    width: calc(100% + 1rem);
+    margin-left: -0.5rem;
+}
+
+.hero-text {
+    line-height: 1.6;
+}
