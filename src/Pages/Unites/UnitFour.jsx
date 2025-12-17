@@ -14,7 +14,7 @@ const UniteFour = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl w-full">
 
           {/* Vocabulary Box */}
-          <Link to="/vocabulary">
+          <Link to="/UnitFour/vocabulary">
             <div className="group bg-[#0f172a] border border-[#36d7b7] rounded-2xl p-8 text-center cursor-pointer
                             transition-all duration-300 hover:bg-[#36d7b7] hover:text-black">
               <h2 className="text-3xl font-bold text-[#36d7b7] group-hover:text-black">
@@ -27,7 +27,7 @@ const UniteFour = () => {
           </Link>
 
           {/* Grammar Box */}
-          <Link to="/grammar">
+          <Link to="/UnitFour/grammar">
             <div className="group bg-[#0f172a] border border-[#36d7b7] rounded-2xl p-8 text-center cursor-pointer
                             transition-all duration-300 hover:bg-[#36d7b7] hover:text-black">
               <h2 className="text-3xl font-bold text-[#36d7b7] group-hover:text-black">

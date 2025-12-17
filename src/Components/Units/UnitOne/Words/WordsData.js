@@ -33,7 +33,7 @@ const data = {
         { word: "Rush in", meaningAr: "يندفع إلى الداخل بسرعة" },
         { word: "Related to", meaningAr: "متعلق بـ" },
     ],
-
+    
     important: [
         { word: "Beep", meaningAr: "يصدر صوت تنبيه" },
         { word: "Mental", meaningAr: "ذهني / عقلي" },

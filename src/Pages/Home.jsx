@@ -1,9 +1,5 @@
-import React from 'react'
 import Hero from '../Components/Hero'
-import NavBar from '../Components/NavBar'
 import Units from '../Components/Units/Units'
-import Footer from '../Components/Footer'
-import Class from './Class'
 
 const Home = () => {
   return (
