@@ -77,6 +77,13 @@ const data = {
         { word: "Collect", meaningAr: "يجمع" },
         { word: "Neighbour", meaningAr: "جار" },
     ],
+
+    Idioms: [
+        { word: "Under the weather", meaningAr: "ليس على ما يرام" },
+        { word: "Break a leg", meaningAr: "حظًا سعيدًا" },
+        { word: "Get a head up", meaningAr: "حظًا سعيدًا" },
+        { word: "Get a move on", meaningAr: "حظًا سعيدًا" },
+    ],
 };
 
 export default data;
