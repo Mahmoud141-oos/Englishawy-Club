@@ -5,6 +5,7 @@ const VocabularyPro = () => {
     const [tab, setTab] = useState("vocabulary");
     const [search, setSearch] = useState("");
     const [flipped, setFlipped] = useState(null);
+    const tabs = Object.keys(data);
 
     const speak = (word) => {
         const u = new SpeechSynthesisUtterance(word);
@@ -42,7 +43,7 @@ const VocabularyPro = () => {
 
             {/* Tabs */}
             <div className="flex justify-center gap-4 mb-6">
-                {["vocabulary", "expressions", "important"].map((t) => (
+                {tabs.map((t) => (
                     <button
                         key={t}
                         onClick={() => {
